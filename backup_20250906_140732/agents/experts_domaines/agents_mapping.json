@@ -1,0 +1,97 @@
+{
+  "experts_domaines": {
+    "eia": {
+      "nom": "Expert IA",
+      "specialisation": "Intelligence Artificielle",
+      "description": "Expert en IA, machine learning, deep learning"
+    },
+    "ec": {
+      "nom": "Expert Cloud",
+      "specialisation": "Technologies Cloud",
+      "description": "Expert en architectures cloud, migration, optimisation"
+    },
+    "edata": {
+      "nom": "Expert Data",
+      "specialisation": "Données et Analytics",
+      "description": "Expert en data science, big data, analytics"
+    },
+    "etd": {
+      "nom": "Expert Transformation Digitale",
+      "specialisation": "Transformation Digitale",
+      "description": "Expert en digitalisation, modernisation IT"
+    },
+    "ecyber": {
+      "nom": "Expert Cybersécurité",
+      "specialisation": "Cybersécurité",
+      "description": "Expert en sécurité informatique, protection des données"
+    },
+    "erse": {
+      "nom": "Expert RSE",
+      "specialisation": "Responsabilité Sociétale",
+      "description": "Expert en RSE, développement durable, impact social"
+    },
+    "esn": {
+      "nom": "Expert Souveraineté Numérique",
+      "specialisation": "Souveraineté Numérique",
+      "description": "Expert en indépendance technologique, souveraineté"
+    },
+    "eli": {
+      "nom": "Expert Lutte Informationnelle",
+      "specialisation": "Lutte Informationnelle",
+      "description": "Expert en guerre informationnelle, désinformation"
+    },
+    "ege": {
+      "nom": "Expert Gestion d'Entreprise",
+      "specialisation": "Gestion d'Entreprise",
+      "description": "Expert en management, organisation, processus"
+    },
+    "estrat": {
+      "nom": "Expert Stratégie",
+      "specialisation": "Stratégie d'Entreprise",
+      "description": "Expert en stratégie, planification, développement"
+    },
+    "erh": {
+      "nom": "Expert RH",
+      "specialisation": "Ressources Humaines",
+      "description": "Expert en RH, talents, organisation du travail"
+    },
+    "eerc": {
+      "nom": "Expert Expérience et Relation Client",
+      "specialisation": "Expérience Client",
+      "description": "Expert en CX, relation client, satisfaction"
+    },
+    "elrd": {
+      "nom": "Expert Législations et Réglementations Digitales",
+      "specialisation": "Réglementations Digitales US/EU/UK",
+      "description": "Expert en DMA, DSA, RGPD, PATRIOT Act, FIDA et autres réglementations digitales",
+      "regions": ["Union Européenne", "États-Unis", "Royaume-Uni"],
+      "reglementations_prioritaires": ["DMA", "DSA", "RGPD", "PATRIOT_ACT", "FIDA"],
+      "services": [
+        "Analyse de conformité réglementaire",
+        "Veille réglementaire continue",
+        "Évaluation d'impact réglementaire",
+        "Rapports de conformité",
+        "Conseil stratégique réglementaire"
+      ]
+    },
+    "efs": {
+      "nom": "Expert Finance & Stratégie Financière",
+      "specialisation": "Finance d'entreprise, M&A, Analyse financière, Stratégie financière",
+      "description": "Expert en finance d'entreprise, fusions-acquisitions, analyse financière et stratégie financière",
+      "domaines_expertise": ["analyse_financiere", "fusions_acquisitions", "strategie_financiere", "valorisation", "finance_marches"],
+      "secteurs_prioritaires": ["technologie", "industrie", "services_financiers", "sante_pharma"],
+      "services": [
+        "Analyse de performance financière",
+        "Évaluation d'opportunités M&A",
+        "Optimisation structure financière",
+        "Valorisation d'entreprises",
+        "Due diligence financière",
+        "Stratégie de financement",
+        "Veille financière continue"
+      ],
+      "metriques_specialisees": ["ROE", "ROA", "ROIC", "EV/EBITDA", "P/E", "Debt/Equity", "WACC"],
+      "sources_veille": ["Financial Times", "Wall Street Journal", "Bloomberg", "Reuters", "PitchBook"]
+    }
+  }
+}
+

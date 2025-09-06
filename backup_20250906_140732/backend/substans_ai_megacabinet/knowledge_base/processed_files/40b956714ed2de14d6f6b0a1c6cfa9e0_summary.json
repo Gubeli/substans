@@ -1,0 +1,23 @@
+{
+  "file_name": "README.md",
+  "file_type": "text",
+  "processed_at": "2025-09-02T07:38:24.874848",
+  "mission_id": "test_001",
+  "content_summary": "# Substans.ai \"Méga-Cabinet Virtuel\"\n\nCe projet contient le code pour le développement de Substans.ai, un méga-cabinet de conseil virtuel basé sur une architecture matricielle à 3 dimensions.\n\n## Architecture\n\n- **Senior Advisor** : Orchestrateur central.\n- **Dimension 1 : Agents Consultants** : Agents fonctionnels sur sollicitation.\n- **Dimension 2 : Experts Métiers** : Agents sectoriels autonomes et sur sollicitation.\n- **Dimension 3 : Experts Domaines** : Agents transversaux autonomes et sur ...",
+  "keywords": [
+    "agents",
+    "système",
+    "pour",
+    "dimension",
+    "sollicitation",
+    "experts",
+    "substansai",
+    "mégacabinet",
+    "virtuel",
+    "architecture"
+  ],
+  "metadata": {
+    "file_size": 1049,
+    "word_count": 143
+  }
+}

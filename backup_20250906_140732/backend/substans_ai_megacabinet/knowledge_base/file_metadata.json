@@ -1,0 +1,15 @@
+{
+  "40b956714ed2de14d6f6b0a1c6cfa9e0": {
+    "file_path": "/home/ubuntu/substans_ai_megacabinet/README.md",
+    "file_name": "README.md",
+    "file_size": 1049,
+    "file_hash": "40b956714ed2de14d6f6b0a1c6cfa9e0",
+    "processed_at": "2025-09-02T07:38:24.874848",
+    "mission_id": "test_001",
+    "file_type": "text",
+    "type": "text",
+    "content": "# Substans.ai \"Méga-Cabinet Virtuel\"\n\nCe projet contient le code pour le développement de Substans.ai, un méga-cabinet de conseil virtuel basé sur une architecture matricielle à 3 dimensions.\n\n## Architecture\n\n- **Senior Advisor** : Orchestrateur central.\n- **Dimension 1 : Agents Consultants** : Agents fonctionnels sur sollicitation.\n- **Dimension 2 : Experts Métiers** : Agents sectoriels autonomes et sur sollicitation.\n- **Dimension 3 : Experts Domaines** : Agents transversaux autonomes et sur sollicitation.\n- **Interactions Inter-Agents** : Système de communication et de collaboration entre les agents.\n- **Machine Learning Global** : Mécanisme d'amélioration continue de l'ensemble du système.\n\n## Fonctionnement\n\nLe Senior Advisor orchestre les missions en activant les agents et experts pertinents. Les interactions entre les agents sont automatisées pour optimiser le flux de travail. Un système de Machine Learning global analyse les performances et les retours d'expérience pour améliorer continuellement le système.\n\n\n",
+    "word_count": 143,
+    "line_count": 19
+  }
+}
