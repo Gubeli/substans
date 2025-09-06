@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  substans-backend:
+    build:
+      context: ../backend/flask_app
+      dockerfile: Dockerfile
+    container_name: substans-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - DATABASE_URL=sqlite:///data/substans.db
+    volumes:
+      - ../data:/app/data
+      - ../logs:/app/logs
+      - ../backups:/app/backups
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  substans-frontend:
+    build:
+      context: ../frontend/react_interface
+      dockerfile: Dockerfile
+    container_name: substans-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - substans-backend
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    container_name: substans-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ../frontend/static_interface:/usr/share/nginx/html
+    depends_on:
+      - substans-backend
+      - substans-frontend
+    restart: unless-stopped
+
+volumes:
+  substans_data:
+  substans_logs:
+  substans_backups:
+
+networks:
+  default:
+    name: substans-network
+

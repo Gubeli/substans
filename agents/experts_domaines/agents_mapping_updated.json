@@ -1,0 +1,238 @@
+{
+  "agents_consultants": {
+    "avs": {
+      "nom": "Agent Veille Stratégique",
+      "fichier": "avs.py",
+      "specialisation": "Veille stratégique et intelligence économique",
+      "status": "active"
+    },
+    "aad": {
+      "nom": "Agent Analyse Données",
+      "fichier": "aad.py", 
+      "specialisation": "Analyse de données et business intelligence",
+      "status": "active"
+    },
+    "agc": {
+      "nom": "Agent Gestion Connaissances",
+      "fichier": "agc.py",
+      "specialisation": "Gestion des connaissances et documentation",
+      "status": "active"
+    },
+    "arpc": {
+      "nom": "Agent Proposition Commerciale",
+      "fichier": "arpc.py",
+      "specialisation": "Rédaction de propositions commerciales",
+      "status": "active"
+    },
+    "arr": {
+      "nom": "Agent Rédaction Rapports",
+      "fichier": "arr.py",
+      "specialisation": "Rédaction de rapports et synthèses",
+      "status": "active"
+    },
+    "asm": {
+      "nom": "Agent Suivi Mission",
+      "fichier": "asm.py",
+      "specialisation": "Suivi et gestion de missions",
+      "status": "active"
+    },
+    "adamo": {
+      "nom": "Agent Méthodes & Outils",
+      "fichier": "adamo.py",
+      "specialisation": "Méthodes et outils de conseil",
+      "status": "active"
+    },
+    "afc": {
+      "nom": "Agent Fact Checker",
+      "fichier": "afc.py",
+      "specialisation": "Vérification des faits, chiffres et informations",
+      "description": "Agent spécialisé dans la vérification automatique de tous les documents produits par la plateforme",
+      "services": [
+        "Vérification des chiffres et données numériques",
+        "Contrôle des dates et événements",
+        "Validation des noms de personnes et entreprises",
+        "Vérification des sources et références",
+        "Génération de rapports de conformité"
+      ],
+      "sources_verification": ["manus.ai", "perplexity.ai", "wikipedia.org", "reuters.com", "bloomberg.com"],
+      "workflow": "Tous les documents doivent être vérifiés avant publication",
+      "status": "active"
+    },
+    "agr": {
+      "nom": "Agent Graphiste",
+      "fichier": "agr.py",
+      "specialisation": "Enrichissement visuel et graphique des documents",
+      "description": "Agent spécialisé dans l'enrichissement visuel des documents pour les rendre plus professionnels et compréhensibles",
+      "services": [
+        "Création de graphiques pour données numériques",
+        "Génération d'infographies",
+        "Conception de schémas de processus",
+        "Création de timelines chronologiques",
+        "Optimisation visuelle des documents"
+      ],
+      "styles_disponibles": ["professionnel", "moderne", "minimaliste", "corporate", "dynamique", "academique"],
+      "formats_sortie": ["PNG", "SVG", "PDF", "HTML"],
+      "integration": "Interface dédiée pour soumission de documents à enrichir",
+      "status": "active"
+    }
+  },
+  "experts_metiers": {
+    "ess": {
+      "nom": "Expert Semi-conducteurs & Substrats",
+      "fichier": "ess.py",
+      "specialisation": "Semi-conducteurs, substrats et technologies avancées",
+      "status": "active"
+    },
+    "ebf": {
+      "nom": "Expert Banque Finance",
+      "fichier": "ebf.py",
+      "specialisation": "Secteur bancaire et services financiers",
+      "status": "active"
+    },
+    "ea": {
+      "nom": "Expert Assurance",
+      "fichier": "ea.py",
+      "specialisation": "Secteur de l'assurance et gestion des risques",
+      "status": "active"
+    },
+    "eddi": {
+      "nom": "Expert Données Digitales Intelligence",
+      "fichier": "eddi.py",
+      "specialisation": "Données digitales et intelligence artificielle",
+      "status": "active"
+    },
+    "efs": {
+      "nom": "Expert Finance & Stratégie Financière",
+      "fichier": "efs.py",
+      "specialisation": "Finance d'entreprise, M&A, Analyse financière, Stratégie financière",
+      "description": "Expert en finance d'entreprise, fusions-acquisitions, analyse financière et stratégie financière",
+      "domaines_expertise": ["analyse_financiere", "fusions_acquisitions", "strategie_financiere", "valorisation", "finance_marches"],
+      "secteurs_prioritaires": ["technologie", "industrie", "services_financiers", "sante_pharma"],
+      "services": [
+        "Analyse de performance financière",
+        "Évaluation d'opportunités M&A",
+        "Optimisation structure financière",
+        "Valorisation d'entreprises",
+        "Due diligence financière",
+        "Stratégie de financement",
+        "Veille financière continue"
+      ],
+      "metriques_specialisees": ["ROE", "ROA", "ROIC", "EV/EBITDA", "P/E", "Debt/Equity", "WACC"],
+      "sources_veille": ["Financial Times", "Wall Street Journal", "Bloomberg", "Reuters", "PitchBook"],
+      "status": "active"
+    }
+  },
+  "experts_domaines": {
+    "eia": {
+      "nom": "Expert Intelligence Artificielle",
+      "fichier": "eia.py",
+      "specialisation": "Intelligence Artificielle",
+      "description": "Expert en IA, machine learning, deep learning",
+      "status": "active"
+    },
+    "ec": {
+      "nom": "Expert Cloud",
+      "fichier": "ec.py",
+      "specialisation": "Technologies Cloud",
+      "description": "Expert en architectures cloud, migration, optimisation",
+      "status": "active"
+    },
+    "edata": {
+      "nom": "Expert Data",
+      "fichier": "edata.py",
+      "specialisation": "Données et Analytics",
+      "description": "Expert en data science, big data, analytics",
+      "status": "active"
+    },
+    "ecyber": {
+      "nom": "Expert Cybersécurité",
+      "fichier": "ecyber.py",
+      "specialisation": "Cybersécurité",
+      "description": "Expert en sécurité informatique, protection des données",
+      "status": "active"
+    },
+    "erse": {
+      "nom": "Expert RSE",
+      "fichier": "erse.py",
+      "specialisation": "Responsabilité Sociétale",
+      "description": "Expert en RSE, développement durable, impact social",
+      "status": "active"
+    },
+    "esn": {
+      "nom": "Expert Souveraineté Numérique",
+      "fichier": "esn.py",
+      "specialisation": "Souveraineté Numérique",
+      "description": "Expert en indépendance technologique, souveraineté",
+      "status": "active"
+    },
+    "eli": {
+      "nom": "Expert Lutte Informationnelle",
+      "fichier": "eli.py",
+      "specialisation": "Lutte Informationnelle",
+      "description": "Expert en guerre informationnelle, désinformation",
+      "status": "active"
+    },
+    "ege": {
+      "nom": "Expert Gestion d'Entreprise",
+      "fichier": "ege.py",
+      "specialisation": "Gestion d'Entreprise",
+      "description": "Expert en management, organisation, processus",
+      "status": "active"
+    },
+    "erh": {
+      "nom": "Expert Ressources Humaines",
+      "fichier": "erh.py",
+      "specialisation": "Ressources Humaines",
+      "description": "Expert en RH, talents, organisation du travail",
+      "status": "active"
+    },
+    "eerc": {
+      "nom": "Expert Expérience et Relation Client",
+      "fichier": "eerc.py",
+      "specialisation": "Expérience Client",
+      "description": "Expert en CX, relation client, satisfaction",
+      "status": "active"
+    },
+    "elrd": {
+      "nom": "Expert Législations et Réglementations Digitales",
+      "fichier": "elrd.py",
+      "specialisation": "Réglementations Digitales US/EU/UK",
+      "description": "Expert en DMA, DSA, RGPD, PATRIOT Act, FIDA et autres réglementations digitales",
+      "regions": ["Union Européenne", "États-Unis", "Royaume-Uni"],
+      "reglementations_prioritaires": ["DMA", "DSA", "RGPD", "PATRIOT_ACT", "FIDA"],
+      "services": [
+        "Analyse de conformité réglementaire",
+        "Veille réglementaire continue",
+        "Évaluation d'impact réglementaire",
+        "Rapports de conformité",
+        "Conseil stratégique réglementaire"
+      ],
+      "status": "active"
+    }
+  },
+  "statistiques": {
+    "total_agents": 25,
+    "agents_consultants": 9,
+    "experts_metiers": 5,
+    "experts_domaines": 11,
+    "agents_actifs": 25,
+    "nouveaux_agents": ["afc", "agr"],
+    "derniere_mise_a_jour": "2025-09-04",
+    "version": "3.0.1"
+  },
+  "workflow_integration": {
+    "fact_checking": {
+      "agent": "afc",
+      "declenchement": "avant_publication",
+      "obligatoire": true,
+      "description": "Tous les documents doivent être vérifiés par l'Agent Fact Checker avant publication"
+    },
+    "enrichissement_visuel": {
+      "agent": "agr",
+      "declenchement": "sur_demande",
+      "obligatoire": false,
+      "description": "Enrichissement visuel disponible via interface dédiée"
+    }
+  }
+}
+

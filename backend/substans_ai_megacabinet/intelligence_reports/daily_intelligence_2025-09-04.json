@@ -1,0 +1,419 @@
+{
+  "date": "2025-09-04",
+  "total_agents": 24,
+  "reports_generated": 24,
+  "knowledge_items_added": 75,
+  "intelligence_scores": [
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.75,
+    0.9,
+    0.9,
+    0.9,
+    0.75,
+    0.75,
+    0.9,
+    0.75,
+    0.9,
+    0.75,
+    0.75,
+    0.75,
+    0.9,
+    0.9,
+    0.75,
+    0.75,
+    0.9
+  ],
+  "category_breakdown": {
+    "métier": 11,
+    "domaine": 13
+  },
+  "discoveries_by_category": {
+    "métier": [
+      {
+        "title": "Nvidia annonce la nouvelle architecture Blackwell pour l'IA",
+        "relevance": 0.85,
+        "impact": "Impact sur semi-conducteurs"
+      },
+      {
+        "title": "JUPITER atteint 1 exaflop - Premier supercalculateur exascale européen",
+        "relevance": 0.9,
+        "impact": "Impact sur semi-conducteurs"
+      },
+      {
+        "title": "Intel dévoile ses processeurs Gaudi 3 pour l'IA",
+        "relevance": 0.95,
+        "impact": "Impact sur semi-conducteurs"
+      },
+      {
+        "title": "La BCE lance l'euro numérique en phase pilote",
+        "relevance": 0.85,
+        "impact": "Impact sur banque"
+      },
+      {
+        "title": "JPMorgan adopte la blockchain pour les paiements internationaux",
+        "relevance": 0.9,
+        "impact": "Impact sur banque"
+      },
+      {
+        "title": "Nouvelles réglementations Basel IV approuvées",
+        "relevance": 0.95,
+        "impact": "Impact sur banque"
+      },
+      {
+        "title": "L'IA générative transforme l'évaluation des risques",
+        "relevance": 0.85,
+        "impact": "Impact sur assurance"
+      },
+      {
+        "title": "Assurance paramétrique : croissance de 40% en 2024",
+        "relevance": 0.9,
+        "impact": "Impact sur assurance"
+      },
+      {
+        "title": "Cyber-assurance : nouveaux modèles de couverture",
+        "relevance": 0.95,
+        "impact": "Impact sur assurance"
+      },
+      {
+        "title": "Commerce social : +65% de croissance en Europe",
+        "relevance": 0.85,
+        "impact": "Impact sur retail"
+      },
+      {
+        "title": "IA conversationnelle révolutionne le service client",
+        "relevance": 0.9,
+        "impact": "Impact sur retail"
+      },
+      {
+        "title": "Réalité augmentée : adoption massive dans le retail",
+        "relevance": 0.95,
+        "impact": "Impact sur retail"
+      },
+      {
+        "title": "Jumeaux numériques : ROI de 25% en moyenne",
+        "relevance": 0.85,
+        "impact": "Impact sur industrie 4.0"
+      },
+      {
+        "title": "5G privée accélère l'Industrie 4.0",
+        "relevance": 0.9,
+        "impact": "Impact sur industrie 4.0"
+      },
+      {
+        "title": "Maintenance prédictive : IA + IoT = -30% de pannes",
+        "relevance": 0.95,
+        "impact": "Impact sur industrie 4.0"
+      },
+      {
+        "title": "Véhicules autonomes Niveau 4 autorisés en Allemagne",
+        "relevance": 0.85,
+        "impact": "Impact sur automobile"
+      },
+      {
+        "title": "Batteries solides : densité énergétique +50%",
+        "relevance": 0.9,
+        "impact": "Impact sur automobile"
+      },
+      {
+        "title": "V2X : déploiement massif prévu en 2025",
+        "relevance": 0.95,
+        "impact": "Impact sur automobile"
+      },
+      {
+        "title": "Drones de livraison : autorisation commerciale UE",
+        "relevance": 0.85,
+        "impact": "Impact sur transport"
+      },
+      {
+        "title": "Blockchain logistique réduit les délais de 20%",
+        "relevance": 0.9,
+        "impact": "Impact sur transport"
+      },
+      {
+        "title": "Navires autonomes : premiers tests commerciaux",
+        "relevance": 0.95,
+        "impact": "Impact sur transport"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans secteur public",
+        "relevance": 0.8,
+        "impact": "Impact sur secteur public"
+      },
+      {
+        "title": "Innovation majeure dans le secteur secteur public",
+        "relevance": 0.75,
+        "impact": "Impact sur secteur public"
+      },
+      {
+        "title": "Évolution réglementaire impactant secteur public",
+        "relevance": 0.7,
+        "impact": "Impact sur secteur public"
+      },
+      {
+        "title": "IA militaire : nouveaux standards OTAN",
+        "relevance": 0.85,
+        "impact": "Impact sur défense"
+      },
+      {
+        "title": "Cyberdéfense quantique : premiers déploiements",
+        "relevance": 0.9,
+        "impact": "Impact sur défense"
+      },
+      {
+        "title": "Drones collaboratifs : essais réussis",
+        "relevance": 0.95,
+        "impact": "Impact sur défense"
+      },
+      {
+        "title": "Hydrogène vert : coûts divisés par 2 d'ici 2030",
+        "relevance": 0.85,
+        "impact": "Impact sur énergie"
+      },
+      {
+        "title": "Stockage batterie : gigafactories européennes",
+        "relevance": 0.9,
+        "impact": "Impact sur énergie"
+      },
+      {
+        "title": "Fusion nucléaire : percée majeure ITER",
+        "relevance": 0.95,
+        "impact": "Impact sur énergie"
+      },
+      {
+        "title": "Data mesh : architecture adoptée par 60% des entreprises",
+        "relevance": 0.85,
+        "impact": "Impact sur transformation digitale"
+      },
+      {
+        "title": "Real-time analytics : performance 10x améliorée",
+        "relevance": 0.9,
+        "impact": "Impact sur transformation digitale"
+      },
+      {
+        "title": "Data governance : automatisation par IA",
+        "relevance": 0.95,
+        "impact": "Impact sur transformation digitale"
+      }
+    ],
+    "domaine": [
+      {
+        "title": "Nouvelles tendances identifiées dans IA",
+        "relevance": 0.8,
+        "impact": "Impact sur IA"
+      },
+      {
+        "title": "Innovation majeure dans le secteur IA",
+        "relevance": 0.75,
+        "impact": "Impact sur IA"
+      },
+      {
+        "title": "Évolution réglementaire impactant IA",
+        "relevance": 0.7,
+        "impact": "Impact sur IA"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans cloud computing",
+        "relevance": 0.8,
+        "impact": "Impact sur cloud computing"
+      },
+      {
+        "title": "Innovation majeure dans le secteur cloud computing",
+        "relevance": 0.75,
+        "impact": "Impact sur cloud computing"
+      },
+      {
+        "title": "Évolution réglementaire impactant cloud computing",
+        "relevance": 0.7,
+        "impact": "Impact sur cloud computing"
+      },
+      {
+        "title": "Data mesh : architecture adoptée par 60% des entreprises",
+        "relevance": 0.85,
+        "impact": "Impact sur data engineering"
+      },
+      {
+        "title": "Real-time analytics : performance 10x améliorée",
+        "relevance": 0.9,
+        "impact": "Impact sur data engineering"
+      },
+      {
+        "title": "Data governance : automatisation par IA",
+        "relevance": 0.95,
+        "impact": "Impact sur data engineering"
+      },
+      {
+        "title": "Data mesh : architecture adoptée par 60% des entreprises",
+        "relevance": 0.85,
+        "impact": "Impact sur data engineering"
+      },
+      {
+        "title": "Real-time analytics : performance 10x améliorée",
+        "relevance": 0.9,
+        "impact": "Impact sur data engineering"
+      },
+      {
+        "title": "Data governance : automatisation par IA",
+        "relevance": 0.95,
+        "impact": "Impact sur data engineering"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans transformation digitale",
+        "relevance": 0.8,
+        "impact": "Impact sur transformation digitale"
+      },
+      {
+        "title": "Innovation majeure dans le secteur transformation digitale",
+        "relevance": 0.75,
+        "impact": "Impact sur transformation digitale"
+      },
+      {
+        "title": "Évolution réglementaire impactant transformation digitale",
+        "relevance": 0.7,
+        "impact": "Impact sur transformation digitale"
+      },
+      {
+        "title": "Zero Trust : déploiement accéléré post-pandémie",
+        "relevance": 0.85,
+        "impact": "Impact sur cybersécurité"
+      },
+      {
+        "title": "IA défensive : détection menaces +90%",
+        "relevance": 0.9,
+        "impact": "Impact sur cybersécurité"
+      },
+      {
+        "title": "Cryptographie quantique : premiers standards",
+        "relevance": 0.95,
+        "impact": "Impact sur cybersécurité"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans RSE",
+        "relevance": 0.8,
+        "impact": "Impact sur RSE"
+      },
+      {
+        "title": "Innovation majeure dans le secteur RSE",
+        "relevance": 0.75,
+        "impact": "Impact sur RSE"
+      },
+      {
+        "title": "Évolution réglementaire impactant RSE",
+        "relevance": 0.7,
+        "impact": "Impact sur RSE"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans souveraineté numérique",
+        "relevance": 0.8,
+        "impact": "Impact sur souveraineté numérique"
+      },
+      {
+        "title": "Innovation majeure dans le secteur souveraineté numérique",
+        "relevance": 0.75,
+        "impact": "Impact sur souveraineté numérique"
+      },
+      {
+        "title": "Évolution réglementaire impactant souveraineté numérique",
+        "relevance": 0.7,
+        "impact": "Impact sur souveraineté numérique"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans guerre informationnelle",
+        "relevance": 0.8,
+        "impact": "Impact sur guerre informationnelle"
+      },
+      {
+        "title": "Innovation majeure dans le secteur guerre informationnelle",
+        "relevance": 0.75,
+        "impact": "Impact sur guerre informationnelle"
+      },
+      {
+        "title": "Évolution réglementaire impactant guerre informationnelle",
+        "relevance": 0.7,
+        "impact": "Impact sur guerre informationnelle"
+      },
+      {
+        "title": "Leadership hybride : nouvelles compétences requises",
+        "relevance": 0.85,
+        "impact": "Impact sur management"
+      },
+      {
+        "title": "Organisation agile : adoption généralisée",
+        "relevance": 0.9,
+        "impact": "Impact sur management"
+      },
+      {
+        "title": "People analytics : prédiction performance +40%",
+        "relevance": 0.95,
+        "impact": "Impact sur management"
+      },
+      {
+        "title": "Écosystèmes business : nouveau paradigme stratégique",
+        "relevance": 0.85,
+        "impact": "Impact sur stratégie"
+      },
+      {
+        "title": "Innovation ouverte : collaboration startup-corporate",
+        "relevance": 0.9,
+        "impact": "Impact sur stratégie"
+      },
+      {
+        "title": "Stratégie plateforme : dominance numérique",
+        "relevance": 0.95,
+        "impact": "Impact sur stratégie"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans RH",
+        "relevance": 0.8,
+        "impact": "Impact sur RH"
+      },
+      {
+        "title": "Innovation majeure dans le secteur RH",
+        "relevance": 0.75,
+        "impact": "Impact sur RH"
+      },
+      {
+        "title": "Évolution réglementaire impactant RH",
+        "relevance": 0.7,
+        "impact": "Impact sur RH"
+      },
+      {
+        "title": "Nouvelles tendances identifiées dans expérience client",
+        "relevance": 0.8,
+        "impact": "Impact sur expérience client"
+      },
+      {
+        "title": "Innovation majeure dans le secteur expérience client",
+        "relevance": 0.75,
+        "impact": "Impact sur expérience client"
+      },
+      {
+        "title": "Évolution réglementaire impactant expérience client",
+        "relevance": 0.7,
+        "impact": "Impact sur expérience client"
+      },
+      {
+        "title": "AI Act européen : impact sur l'innovation IA",
+        "relevance": 0.85,
+        "impact": "Impact sur réglementation digitale"
+      },
+      {
+        "title": "DMA : nouvelles obligations pour les plateformes",
+        "relevance": 0.9,
+        "impact": "Impact sur réglementation digitale"
+      },
+      {
+        "title": "RGPD 2.0 : adaptations pour l'IA générative",
+        "relevance": 0.95,
+        "impact": "Impact sur réglementation digitale"
+      }
+    ]
+  },
+  "average_intelligence_score": 0.84375,
+  "cycle_summary": "# 📊 RAPPORT QUOTIDIEN DE VEILLE INTELLIGENCE COMPLET - 2025-09-04\n\n## 🎯 RÉSUMÉ EXÉCUTIF\n- **Agents mobilisés** : 24 experts (11 métiers + 13 domaines)\n- **Rapports générés** : 24\n- **Enrichissements KB** : 75 nouveaux éléments\n- **Score d'intelligence** : 0.84/1.0\n\n## 📋 RÉPARTITION PAR CATÉGORIE\n- **Experts Métiers** : 11 agents\n- **Experts Domaines** : 13 agents\n\n## 🔍 DÉCOUVERTES MAJEURES PAR CATÉGORIE\n\n### 🏭 EXPERTS MÉTIERS\n  1. **Nvidia annonce la nouvelle architecture Blackwell pour l'IA** (Relevance: 0.85)\n  2. **JUPITER atteint 1 exaflop - Premier supercalculateur exascale européen** (Relevance: 0.90)\n  3. **Intel dévoile ses processeurs Gaudi 3 pour l'IA** (Relevance: 0.95)\n  4. **La BCE lance l'euro numérique en phase pilote** (Relevance: 0.85)\n  5. **JPMorgan adopte la blockchain pour les paiements internationaux** (Relevance: 0.90)\n  6. **Nouvelles réglementations Basel IV approuvées** (Relevance: 0.95)\n  7. **L'IA générative transforme l'évaluation des risques** (Relevance: 0.85)\n  8. **Assurance paramétrique : croissance de 40% en 2024** (Relevance: 0.90)\n  9. **Cyber-assurance : nouveaux modèles de couverture** (Relevance: 0.95)\n  10. **Commerce social : +65% de croissance en Europe** (Relevance: 0.85)\n\n### 💡 EXPERTS DOMAINES\n  1. **Nouvelles tendances identifiées dans IA** (Relevance: 0.80)\n  2. **Innovation majeure dans le secteur IA** (Relevance: 0.75)\n  3. **Évolution réglementaire impactant IA** (Relevance: 0.70)\n  4. **Nouvelles tendances identifiées dans cloud computing** (Relevance: 0.80)\n  5. **Innovation majeure dans le secteur cloud computing** (Relevance: 0.75)\n  6. **Évolution réglementaire impactant cloud computing** (Relevance: 0.70)\n  7. **Data mesh : architecture adoptée par 60% des entreprises** (Relevance: 0.85)\n  8. **Real-time analytics : performance 10x améliorée** (Relevance: 0.90)\n  9. **Data governance : automatisation par IA** (Relevance: 0.95)\n  10. **Data mesh : architecture adoptée par 60% des entreprises** (Relevance: 0.85)\n\n## 📈 MÉTRIQUES DE PERFORMANCE\n- **Couverture sectorielle** : 100% (11/11 secteurs métiers)\n- **Couverture domaines** : 100% (13/13 domaines transversaux)\n- **Qualité moyenne** : 0.84/1.0\n- **Enrichissement KB** : +75 éléments\n\n## 🚀 IMPACT SUBSTANS.AI\n- **Expertise actualisée** : Tous les agents à jour des dernières évolutions\n- **Avantage concurrentiel** : Connaissance temps réel de tous les marchés\n- **Qualité des analyses** : Contexte enrichi pour toutes les missions\n- **Performance croissante** : Apprentissage continu de l'écosystème complet\n"
+}
