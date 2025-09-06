@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisations Substans.AI</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .chart-container {
+            position: relative;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            max-width: 800px;
+        }
+        .chart-title {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        canvas {
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #333;">Tableau de Bord Visuel</h1>
+    
+    <!-- Conteneurs pour les charts -->
+    <div class="chart-container"><canvas id="chart_radar_1757173558.14435"></canvas></div>
+    
+    <script>
+        // Configuration des charts
+        const chartsConfig = [
+  {
+    "id": "chart_radar_1757173558.14435",
+    "type": "radar",
+    "config": {
+      "type": "radar",
+      "data": {
+        "labels": [
+          "Satisfaction client",
+          "de r\u00e9tention",
+          "NPS Score",
+          "Performance",
+          "Innovation Index"
+        ],
+        "datasets": [
+          {
+            "label": "\u00c9valuation",
+            "data": [
+              92.0,
+              88.0,
+              75.0,
+              95.0,
+              82.0
+            ],
+            "backgroundColor": "#1f77b433",
+            "borderColor": "#1f77b4",
+            "pointBackgroundColor": "#1f77b4",
+            "pointBorderColor": "#fff",
+            "pointHoverBackgroundColor": "#fff",
+            "pointHoverBorderColor": "#1f77b4"
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "plugins": {
+          "title": {
+            "display": true,
+            "text": "Analyse Multi-Crit\u00e8res"
+          }
+        },
+        "scales": {
+          "r": {
+            "beginAtZero": true,
+            "max": 100,
+            "grid": {
+              "display": true
+            }
+          }
+        }
+      }
+    },
+    "data": {
+      "labels": [
+        "Satisfaction client",
+        "de r\u00e9tention",
+        "NPS Score",
+        "Performance",
+        "Innovation Index"
+      ],
+      "values": [
+        92.0,
+        88.0,
+        75.0,
+        95.0,
+        82.0
+      ]
+    },
+    "style": {
+      "colors": [
+        "#1f77b4",
+        "#ff7f0e",
+        "#2ca02c",
+        "#d62728",
+        "#9467bd"
+      ],
+      "font_family": "Arial, sans-serif",
+      "background": "#ffffff",
+      "grid": true,
+      "animation": false
+    },
+    "priority": "high"
+  }
+];
+        
+        // Création des charts
+        chartsConfig.forEach(chart => {
+            const ctx = document.getElementById(chart.id).getContext('2d');
+            new Chart(ctx, chart.config);
+        });
+    </script>
+</body>
+</html>

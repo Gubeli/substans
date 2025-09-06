@@ -1,0 +1,221 @@
+{
+  "03753c7bf5c387091e4bef4a16f64581": {
+    "id": "03753c7bf5c387091e4bef4a16f64581",
+    "file_path": "/home/ubuntu/substans_ai_megacabinet/knowledge_base/inventaire_documents.md",
+    "size": 6252,
+    "date_creation": "2025-09-01T09:24:05.541927",
+    "date_modification": "2025-09-01T09:24:05.541927",
+    "checksum": "8c7120453ff38e5483002ce56d058287",
+    "titre": "Inventaire Complet des Documents",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "documentation",
+    "type_document": "documentation",
+    "auteur": "substans.ai",
+    "mots_cles": [
+      "inventaire",
+      "documents",
+      "base de connaissances"
+    ]
+  },
+  "e4ccbb63783c4c0a8031a3800a661360": {
+    "id": "e4ccbb63783c4c0a8031a3800a661360",
+    "file_path": "/home/ubuntu/rapport_final_substans.md",
+    "size": 10863,
+    "date_creation": "2025-09-01T08:16:55.114372",
+    "date_modification": "2025-09-01T08:16:55.114372",
+    "checksum": "ff960848c4b2b05e3bb829971015fd26",
+    "titre": "Rapport Final d'Analyse Substans.ai",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "documentation",
+    "type_document": "rapport",
+    "secteurs_concernes": [
+      "tous"
+    ],
+    "domaines_concernes": [
+      "strategie",
+      "ia",
+      "transformation_digitale"
+    ],
+    "agents_utilisateurs": [
+      "senior_advisor",
+      "avs",
+      "aad",
+      "arr"
+    ],
+    "mots_cles": [
+      "analyse",
+      "substans",
+      "architecture",
+      "agents"
+    ]
+  },
+  "2ed4c5fb1ba947438b1b33a784b28c7c": {
+    "id": "2ed4c5fb1ba947438b1b33a784b28c7c",
+    "file_path": "/home/ubuntu/architecture_matricielle_substans.md",
+    "size": 16445,
+    "date_creation": "2025-09-01T08:15:50.001810",
+    "date_modification": "2025-09-01T08:15:50.001810",
+    "checksum": "6f018029b5f940bbf732e1dc55bf01dc",
+    "titre": "Architecture Matricielle Substans.ai",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "architecture",
+    "type_document": "specification",
+    "secteurs_concernes": [
+      "tous"
+    ],
+    "domaines_concernes": [
+      "ia",
+      "architecture_systeme"
+    ],
+    "agents_utilisateurs": [
+      "senior_advisor"
+    ],
+    "mots_cles": [
+      "architecture",
+      "matricielle",
+      "agents",
+      "experts"
+    ]
+  },
+  "239bd721117411dc68480c062f4d4e78": {
+    "id": "239bd721117411dc68480c062f4d4e78",
+    "file_path": "/home/ubuntu/plan_developpement_substans.md",
+    "size": 10438,
+    "date_creation": "2025-09-01T08:24:53.538540",
+    "date_modification": "2025-09-01T08:24:53.538540",
+    "checksum": "350e9bf734959ebdbb3c9769ba5c3aca",
+    "titre": "Plan de D\u00e9veloppement Substans.ai Phase 1",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "planification",
+    "type_document": "plan_strategique",
+    "secteurs_concernes": [
+      "tous"
+    ],
+    "domaines_concernes": [
+      "strategie",
+      "gestion_projet"
+    ],
+    "agents_utilisateurs": [
+      "senior_advisor",
+      "asm"
+    ],
+    "mots_cles": [
+      "developpement",
+      "phase1",
+      "roadmap",
+      "manus"
+    ]
+  },
+  "5334f4e2c90797c5ba0b5168a0f3712c": {
+    "id": "5334f4e2c90797c5ba0b5168a0f3712c",
+    "file_path": "/home/ubuntu/substans_ai_megacabinet/main.py",
+    "size": 9001,
+    "date_creation": "2025-09-01T08:53:45.346251",
+    "date_modification": "2025-09-01T08:53:45.346251",
+    "checksum": "e4125c87fa36fd62400d5f3ea1562068",
+    "titre": "Code Source - main.py",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "code_source",
+    "type_document": "code",
+    "secteurs_concernes": [
+      "tous"
+    ],
+    "domaines_concernes": [
+      "ia",
+      "developpement"
+    ],
+    "agents_utilisateurs": [
+      "senior_advisor"
+    ],
+    "mots_cles": [
+      "python",
+      "substans",
+      "agents",
+      "code"
+    ]
+  },
+  "686bba5e4fa6a851167eb015aa88353e": {
+    "id": "686bba5e4fa6a851167eb015aa88353e",
+    "file_path": "/home/ubuntu/substans_ai_megacabinet/senior_advisor/senior_advisor.py",
+    "size": 1381,
+    "date_creation": "2025-09-01T08:32:11.078268",
+    "date_modification": "2025-09-01T08:32:11.078268",
+    "checksum": "4f7b00ecade53715436034f70db52c00",
+    "titre": "Code Source - senior_advisor.py",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "code_source",
+    "type_document": "code",
+    "secteurs_concernes": [
+      "tous"
+    ],
+    "domaines_concernes": [
+      "ia",
+      "developpement"
+    ],
+    "agents_utilisateurs": [
+      "senior_advisor"
+    ],
+    "mots_cles": [
+      "python",
+      "substans",
+      "agents",
+      "code"
+    ]
+  },
+  "2711b371a31944b81ce7ab93a47043b0": {
+    "id": "2711b371a31944b81ce7ab93a47043b0",
+    "file_path": "/home/ubuntu/substans_ai_megacabinet/interactions_inter_agents.py",
+    "size": 964,
+    "date_creation": "2025-09-01T08:48:08.753536",
+    "date_modification": "2025-09-01T08:48:08.753536",
+    "checksum": "ee7b2b8063e3ede49a931829633bbe99",
+    "titre": "Code Source - interactions_inter_agents.py",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "code_source",
+    "type_document": "code",
+    "secteurs_concernes": [
+      "tous"
+    ],
+    "domaines_concernes": [
+      "ia",
+      "developpement"
+    ],
+    "agents_utilisateurs": [
+      "senior_advisor"
+    ],
+    "mots_cles": [
+      "python",
+      "substans",
+      "agents",
+      "code"
+    ]
+  },
+  "bc1f371e8a3b62d4a722f0d3fb28c48e": {
+    "id": "bc1f371e8a3b62d4a722f0d3fb28c48e",
+    "file_path": "/home/ubuntu/substans_ai_megacabinet/machine_learning_global.py",
+    "size": 1077,
+    "date_creation": "2025-09-01T08:48:14.255407",
+    "date_modification": "2025-09-01T08:48:14.255407",
+    "checksum": "97215180ee6cb2c47f99b4406b9ed534",
+    "titre": "Code Source - machine_learning_global.py",
+    "categorie_principale": "CONSTRUCTION_SUBSTANS",
+    "sous_categorie": "code_source",
+    "type_document": "code",
+    "secteurs_concernes": [
+      "tous"
+    ],
+    "domaines_concernes": [
+      "ia",
+      "developpement"
+    ],
+    "agents_utilisateurs": [
+      "senior_advisor"
+    ],
+    "mots_cles": [
+      "python",
+      "substans",
+      "agents",
+      "code"
+    ]
+  }
+}

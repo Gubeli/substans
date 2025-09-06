@@ -1,0 +1,161 @@
+{
+  "template_name": "Proposition Commerciale Structurée",
+  "template_version": "2.0",
+  "methodology": "SCR (Situation-Complication-Resolution)",
+  "description": "Template de proposition commerciale selon les standards des grands cabinets de conseil",
+  "structure": {
+    "1_synthese_executive": {
+      "title": "Synthèse Exécutive",
+      "description": "Résumé d'une page reprenant les points principaux des sections 2, 3 et 4",
+      "methodology": "Structure SCR condensée",
+      "content_guidelines": [
+        "Situation actuelle du client et du marché",
+        "Complications et défis identifiés", 
+        "Solution proposée et valeur attendue",
+        "ROI et bénéfices clés"
+      ]
+    },
+    "2_contexte_strategique": {
+      "title": "Contexte Stratégique et Enjeux Critiques",
+      "description": "Big picture - Situation macro du secteur et du marché",
+      "methodology": "Situation (S)",
+      "content_guidelines": [
+        "Mégatendances du secteur",
+        "Transformation de l'écosystème",
+        "Enjeux technologiques, économiques, géopolitiques",
+        "Évolution des usages clients",
+        "Démonstration de compréhension du marché"
+      ],
+      "subsections": [
+        "Révolution sectorielle",
+        "Enjeux technologiques",
+        "Enjeux économiques", 
+        "Dimensions géopolitiques",
+        "Évolution des usages clients"
+      ]
+    },
+    "3_problematiques_client": {
+      "title": "Problématiques Spécifiques au Client",
+      "description": "Complications - Défis spécifiques du client dans ce contexte",
+      "methodology": "Complication (C)",
+      "content_guidelines": [
+        "Positionnement concurrentiel actuel",
+        "Forces et faiblesses identifiées",
+        "Défis stratégiques spécifiques",
+        "Questions critiques à résoudre",
+        "Impact de l'inaction",
+        "Barrières entre situation actuelle et objectifs"
+      ],
+      "subsections": [
+        "Positionnement concurrentiel actuel",
+        "Forces identifiées",
+        "Défis stratégiques",
+        "Questions stratégiques critiques"
+      ]
+    },
+    "4_approche_proposee": {
+      "title": "Objectifs de la Mission et Approche Proposée", 
+      "description": "Résolution - Solution structurée sous forme de table des matières",
+      "methodology": "Resolution (R)",
+      "content_guidelines": [
+        "Objectif clair de la mission",
+        "Modules d'analyse structurés",
+        "Méthodologie pour chaque module",
+        "Pas de réponses détaillées - seulement la structure",
+        "Approche collaborative",
+        "Sources d'information"
+      ],
+      "subsections": [
+        "Module I: Analyse stratégique du marché",
+        "Module II: Positionnement concurrentiel",
+        "Module III: Vision stratégique",
+        "Module IV: Business plan",
+        "Module V: Plan d'action opérationnel"
+      ]
+    },
+    "5_livrables_methodologie": {
+      "title": "Livrables et Méthodologie",
+      "description": "Description des livrables et de l'approche d'intervention",
+      "content_guidelines": [
+        "Livrables principaux détaillés",
+        "Méthodologie d'intervention",
+        "Approche collaborative",
+        "Sources d'information",
+        "Outils d'aide à la décision"
+      ]
+    },
+    "6_calendrier_organisation": {
+      "title": "Calendrier et Organisation",
+      "description": "Planning et équipe projet",
+      "content_guidelines": [
+        "Planning par phases",
+        "Équipe projet dédiée",
+        "Jalons et livrables intermédiaires",
+        "Gouvernance du projet"
+      ]
+    },
+    "7_investissement_valeur": {
+      "title": "Investissement et Valeur Attendue",
+      "description": "Proposition de valeur et ROI",
+      "content_guidelines": [
+        "Proposition de valeur claire",
+        "ROI attendu quantifié",
+        "Bénéfices par catégorie",
+        "Justification de l'investissement"
+      ]
+    }
+  },
+  "agent_instructions": {
+    "senior_advisor": {
+      "role": "Orchestration et validation de la cohérence globale",
+      "responsibilities": [
+        "Validation de la structure SCR",
+        "Cohérence entre les sections",
+        "Niveau exécutif du contenu",
+        "Qualité de l'argumentation"
+      ]
+    },
+    "expert_strategie": {
+      "role": "Développement du contexte stratégique et des problématiques",
+      "responsibilities": [
+        "Analyse des mégatendances sectorielles",
+        "Identification des enjeux critiques",
+        "Positionnement concurrentiel",
+        "Questions stratégiques"
+      ]
+    },
+    "expert_domaine": {
+      "role": "Expertise technique et sectorielle",
+      "responsibilities": [
+        "Validation technique des enjeux",
+        "Benchmarking technologique",
+        "Tendances d'innovation",
+        "Spécificités sectorielles"
+      ]
+    },
+    "expert_souverainete": {
+      "role": "Analyse géopolitique et réglementaire",
+      "responsibilities": [
+        "Enjeux de souveraineté",
+        "Analyse réglementaire",
+        "Politiques publiques",
+        "Risques géopolitiques"
+      ]
+    }
+  },
+  "quality_criteria": {
+    "structure_scr": "Respect strict de la méthodologie Situation-Complication-Resolution",
+    "big_picture": "Vision macro du secteur avant problématiques spécifiques",
+    "no_solutions": "Pas de réponses détaillées dans la proposition - seulement la structure",
+    "executive_level": "Contenu adapté au niveau direction générale",
+    "actionable": "Orientations claires et actionnables",
+    "quantified": "Éléments quantifiés quand possible",
+    "confidential": "Respect de la confidentialité client"
+  },
+  "examples": {
+    "situation_intro": "L'industrie [SECTEUR] connaît une transformation structurelle majeure...",
+    "complication_intro": "[CLIENT] occupe une position unique dans l'écosystème [SECTEUR], avec des atouts reconnus mais fait face à des défis stratégiques majeurs...",
+    "resolution_intro": "Cette mission vise à fournir à [CLIENT] une vision stratégique claire et un plan d'action opérationnel..."
+  }
+}
+

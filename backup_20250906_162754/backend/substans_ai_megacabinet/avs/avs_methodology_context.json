@@ -1,0 +1,172 @@
+{
+  "agent_info": {
+    "nom": "Agent de Veille Strat\u00e9gique",
+    "role": "Veille et identification d'opportunit\u00e9s",
+    "phases_actives": [
+      1,
+      2
+    ],
+    "competences": [
+      "veille",
+      "analyse_tendances",
+      "signaux_faibles"
+    ]
+  },
+  "phases_responsables": [
+    {
+      "phase_id": 1,
+      "nom": "S\u00e9lection Strat\u00e9gique et Cadrage",
+      "taches": [
+        "Veille strat\u00e9gique continue",
+        "Application de la grille de s\u00e9lection des sujets",
+        "Analyse pr\u00e9liminaire",
+        "Session de cadrage client",
+        "R\u00e9daction de la proposition de mission"
+      ],
+      "livrables": [
+        "Note de cadrage",
+        "Proposition de mission d\u00e9taill\u00e9e"
+      ],
+      "duree_estimee": 12
+    },
+    {
+      "phase_id": 2,
+      "nom": "Collecte et Validation des Donn\u00e9es",
+      "taches": [
+        "Plan de collecte",
+        "Collecte multi-sources",
+        "Processus de validation rigoureux",
+        "Documentation des sources",
+        "Structuration de la base de donn\u00e9es"
+      ],
+      "livrables": [
+        "Base de donn\u00e9es structur\u00e9e",
+        "Rapport de validation des sources"
+      ],
+      "duree_estimee": 25
+    }
+  ],
+  "workflow_complet": [
+    {
+      "id": 1,
+      "nom": "S\u00e9lection Strat\u00e9gique et Cadrage",
+      "duree_estimee_pct": 12,
+      "livrables": [
+        "Note de cadrage",
+        "Proposition de mission d\u00e9taill\u00e9e"
+      ],
+      "agents_principaux": [
+        "Senior Advisor",
+        "AVS"
+      ],
+      "taches": [
+        "Veille strat\u00e9gique continue",
+        "Application de la grille de s\u00e9lection des sujets",
+        "Analyse pr\u00e9liminaire",
+        "Session de cadrage client",
+        "R\u00e9daction de la proposition de mission"
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Collecte et Validation des Donn\u00e9es",
+      "duree_estimee_pct": 25,
+      "livrables": [
+        "Base de donn\u00e9es structur\u00e9e",
+        "Rapport de validation des sources"
+      ],
+      "agents_principaux": [
+        "AAD",
+        "Experts M\u00e9tiers",
+        "Experts Domaines"
+      ],
+      "taches": [
+        "Plan de collecte",
+        "Collecte multi-sources",
+        "Processus de validation rigoureux",
+        "Documentation des sources",
+        "Structuration de la base de donn\u00e9es"
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Analyse Approfondie et Synth\u00e8se",
+      "duree_estimee_pct": 30,
+      "livrables": [
+        "Rapport d'analyse interm\u00e9diaire",
+        "Synth\u00e8ses th\u00e9matiques"
+      ],
+      "agents_principaux": [
+        "AAD",
+        "ARR",
+        "Experts M\u00e9tiers",
+        "Experts Domaines"
+      ],
+      "taches": [
+        "Analyse quantitative et qualitative",
+        "Mobilisation des experts pour interpr\u00e9tation",
+        "Synth\u00e8se et structuration des insights",
+        "Validation interm\u00e9diaire client"
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Recommandations Strat\u00e9giques et Storytelling",
+      "duree_estimee_pct": 15,
+      "livrables": [
+        "Plan de recommandations",
+        "Storyboard de l'\u00e9tude"
+      ],
+      "agents_principaux": [
+        "Senior Advisor",
+        "ARR"
+      ],
+      "taches": [
+        "D\u00e9veloppement des recommandations actionnables",
+        "Analyse d'impact",
+        "Construction du storytelling",
+        "Validation des recommandations avec le client"
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Production et Diffusion",
+      "duree_estimee_pct": 15,
+      "livrables": [
+        "\u00c9tude finale (web interactif, PDF)",
+        "Executive Summary",
+        "Pr\u00e9sentation"
+      ],
+      "agents_principaux": [
+        "ARR",
+        "AGC"
+      ],
+      "taches": [
+        "R\u00e9daction et mise en forme",
+        "Production multi-format",
+        "Contr\u00f4le qualit\u00e9 final",
+        "Diffusion strat\u00e9gique"
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Suivi et Capitalisation",
+      "duree_estimee_pct": 5,
+      "livrables": [
+        "Rapport de mission",
+        "Mise \u00e0 jour de la base de connaissances"
+      ],
+      "agents_principaux": [
+        "Senior Advisor",
+        "ASM",
+        "AGC"
+      ],
+      "taches": [
+        "Plan de suivi client",
+        "Session de feedback client",
+        "Capitalisation des connaissances",
+        "Am\u00e9lioration continue de la m\u00e9thodologie"
+      ]
+    }
+  ]
+}

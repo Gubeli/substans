@@ -1,0 +1,237 @@
+{
+  "version": "2.0",
+  "methodologies": {
+    "substans_standard": {
+      "nom": "Méthodologie Substans.ai Standard",
+      "description": "Méthodologie standard pour les études de conseil stratégique",
+      "type": "study",
+      "phases": [
+        {
+          "id": 1,
+          "nom": "Sélection Stratégique et Cadrage",
+          "duree_estimee_pct": 12,
+          "livrables": [
+            "Note de cadrage",
+            "Proposition de mission détaillée"
+          ],
+          "agents_principaux": [
+            "Senior Advisor",
+            "AVS"
+          ],
+          "taches": [
+            "Veille stratégique continue",
+            "Application de la grille de sélection des sujets",
+            "Analyse préliminaire",
+            "Session de cadrage client",
+            "Rédaction de la proposition de mission"
+          ]
+        },
+        {
+          "id": 2,
+          "nom": "Collecte et Validation des Données",
+          "duree_estimee_pct": 25,
+          "livrables": [
+            "Base de données structurée",
+            "Rapport de validation des sources"
+          ],
+          "agents_principaux": [
+            "AAD",
+            "Experts Métiers",
+            "Experts Domaines"
+          ],
+          "taches": [
+            "Plan de collecte",
+            "Collecte multi-sources",
+            "Processus de validation rigoureux",
+            "Documentation des sources",
+            "Structuration de la base de données"
+          ]
+        },
+        {
+          "id": 3,
+          "nom": "Analyse Approfondie et Synthèse",
+          "duree_estimee_pct": 30,
+          "livrables": [
+            "Rapport d'analyse intermédiaire",
+            "Synthèses thématiques"
+          ],
+          "agents_principaux": [
+            "AAD",
+            "ARR",
+            "Experts Métiers",
+            "Experts Domaines"
+          ],
+          "taches": [
+            "Analyse quantitative et qualitative",
+            "Mobilisation des experts pour interprétation",
+            "Synthèse et structuration des insights",
+            "Validation intermédiaire client"
+          ]
+        },
+        {
+          "id": 4,
+          "nom": "Recommandations Stratégiques et Storytelling",
+          "duree_estimee_pct": 15,
+          "livrables": [
+            "Plan de recommandations",
+            "Storyboard de l'étude"
+          ],
+          "agents_principaux": [
+            "Senior Advisor",
+            "ARR"
+          ],
+          "taches": [
+            "Développement des recommandations actionnables",
+            "Analyse d'impact",
+            "Construction du storytelling",
+            "Validation des recommandations avec le client"
+          ]
+        },
+        {
+          "id": 5,
+          "nom": "Production et Diffusion",
+          "duree_estimee_pct": 15,
+          "livrables": [
+            "Étude finale (web interactif, PDF)",
+            "Executive Summary",
+            "Présentation"
+          ],
+          "agents_principaux": [
+            "ARR",
+            "AGC"
+          ],
+          "taches": [
+            "Rédaction et mise en forme",
+            "Production multi-format",
+            "Contrôle qualité final",
+            "Diffusion stratégique"
+          ]
+        },
+        {
+          "id": 6,
+          "nom": "Suivi et Capitalisation",
+          "duree_estimee_pct": 5,
+          "livrables": [
+            "Rapport de mission",
+            "Mise à jour de la base de connaissances"
+          ],
+          "agents_principaux": [
+            "Senior Advisor",
+            "ASM",
+            "AGC"
+          ],
+          "taches": [
+            "Plan de suivi client",
+            "Session de feedback client",
+            "Capitalisation des connaissances",
+            "Amélioration continue de la méthodologie"
+          ]
+        }
+      ]
+    },
+    "proposition_commerciale_scr": {
+      "nom": "Proposition Commerciale SCR",
+      "description": "Méthodologie de proposition commerciale selon les standards des grands cabinets (Situation-Complication-Resolution)",
+      "type": "proposal",
+      "structure": "SCR",
+      "template_file": "proposition_commerciale_template.json",
+      "duration_weeks": 2,
+      "applicable_sectors": ["Tous secteurs"],
+      "phases": [
+        {
+          "id": 1,
+          "nom": "Contexte Stratégique (Situation)",
+          "duree_estimee_pct": 30,
+          "description": "Big picture - Analyse macro du secteur et des mégatendances",
+          "livrables": [
+            "Analyse des mégatendances sectorielles",
+            "Cartographie des enjeux critiques"
+          ],
+          "agents_principaux": [
+            "Senior Advisor",
+            "Expert Stratégie",
+            "Expert Domaine"
+          ],
+          "taches": [
+            "Analyse des mégatendances du secteur",
+            "Identification des enjeux technologiques",
+            "Analyse des enjeux économiques et géopolitiques",
+            "Évolution des usages clients",
+            "Validation de la compréhension du marché"
+          ]
+        },
+        {
+          "id": 2,
+          "nom": "Problématiques Client (Complication)",
+          "duree_estimee_pct": 35,
+          "description": "Défis spécifiques du client dans le contexte sectoriel",
+          "livrables": [
+            "Analyse du positionnement concurrentiel",
+            "Identification des défis stratégiques"
+          ],
+          "agents_principaux": [
+            "Senior Advisor",
+            "Expert Stratégie",
+            "Expert Domaine"
+          ],
+          "taches": [
+            "Analyse du positionnement concurrentiel actuel",
+            "Identification des forces et faiblesses",
+            "Définition des défis stratégiques spécifiques",
+            "Formulation des questions critiques",
+            "Évaluation de l'impact de l'inaction"
+          ]
+        },
+        {
+          "id": 3,
+          "nom": "Approche Proposée (Resolution)",
+          "duree_estimee_pct": 35,
+          "description": "Solution structurée sous forme de table des matières",
+          "livrables": [
+            "Structure modulaire de la mission",
+            "Méthodologie d'intervention détaillée"
+          ],
+          "agents_principaux": [
+            "Senior Advisor",
+            "Expert Stratégie"
+          ],
+          "taches": [
+            "Définition des modules d'analyse",
+            "Structuration de l'approche méthodologique",
+            "Définition des livrables et du calendrier",
+            "Proposition de valeur et ROI",
+            "Validation de la cohérence globale"
+          ]
+        }
+      ]
+    },
+    "transformation_digitale_5_phases": {
+      "nom": "Transformation Digitale 5 Phases",
+      "description": "Méthodologie complète pour accompagner la transformation digitale des organisations",
+      "type": "study",
+      "duration_weeks": 16,
+      "applicable_sectors": ["Banque & Finance", "Industrie", "Services", "Secteur Public"],
+      "phases": [
+        {"nom": "Diagnostic", "duree_estimee_pct": 20},
+        {"nom": "Conception", "duree_estimee_pct": 25},
+        {"nom": "Développement", "duree_estimee_pct": 30},
+        {"nom": "Déploiement", "duree_estimee_pct": 20},
+        {"nom": "Optimisation", "duree_estimee_pct": 5}
+      ]
+    },
+    "strategie_complete_4_phases": {
+      "nom": "Stratégie Complète 4 Phases", 
+      "description": "Approche structurée pour le développement de stratégies d'entreprise",
+      "type": "study",
+      "duration_weeks": 12,
+      "applicable_sectors": ["Tous secteurs"],
+      "phases": [
+        {"nom": "Analyse", "duree_estimee_pct": 30},
+        {"nom": "Stratégie", "duree_estimee_pct": 30},
+        {"nom": "Planification", "duree_estimee_pct": 25},
+        {"nom": "Exécution", "duree_estimee_pct": 15}
+      ]
+    }
+  }
+}
+

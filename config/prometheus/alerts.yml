@@ -1,0 +1,30 @@
+groups:
+  - name: substans_alerts
+    interval: 30s
+    rules:
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High error rate detected"
+          description: "Error rate is above 5% for 5 minutes"
+
+      - alert: AgentDown
+        expr: up{job="substans-agents"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Agent is down"
+          description: "Agent {{ $labels.instance }} is down"
+
+      - alert: HighMemoryUsage
+        expr: process_resident_memory_bytes / 1024 / 1024 > 500
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High memory usage"
+          description: "Memory usage is above 500MB"

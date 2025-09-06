@@ -1,0 +1,308 @@
+{
+  "experts_metiers": {
+    "banque_finance": {
+      "sources_specialisees": [
+        {
+          "nom": "Sindup - Veille Banque Finance",
+          "url": "https://fr.sindup.com/solutions/veille-sectorielle/banque-finance/",
+          "description": "Évolutions du secteur bancaire et financier : nouveaux acteurs, digitalisation, réglementation",
+          "type": "plateforme_veille",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.85
+        },
+        {
+          "nom": "Archimag - Veille Financière",
+          "url": "https://www.archimag.com/veille-documentation/",
+          "description": "Market intelligence et profils professionnels du secteur financier",
+          "type": "magazine_specialise",
+          "frequence_maj": "hebdomadaire",
+          "fiabilite": 0.90
+        },
+        {
+          "nom": "Bases NetSources - Banque",
+          "url": "https://www.bases-netsources.com/",
+          "description": "Outils de veille spécialisés dans l'univers bancaire",
+          "type": "base_donnees",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.88
+        }
+      ],
+      "mots_cles": ["fintech", "digitalisation bancaire", "réglementation financière", "néobanques", "blockchain finance"],
+      "agents_utilisateurs": ["ebf", "avs", "aad"]
+    },
+    "assurance": {
+      "sources_specialisees": [
+        {
+          "nom": "Investopedia - Insurtech",
+          "url": "https://www.investopedia.com/terms/i/insurtech.asp",
+          "description": "Innovations technologiques dans l'industrie de l'assurance",
+          "type": "encyclopedie_financiere",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.92
+        },
+        {
+          "nom": "Cybersecurity Guide - Cyber Insurance",
+          "url": "https://cybersecurityguide.org/resources/insurance/",
+          "description": "Assurance cybersécurité et gestion des risques numériques",
+          "type": "guide_specialise",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.87
+        },
+        {
+          "nom": "FinTech Global - InsurTech 100",
+          "url": "https://fintechglobal.com/",
+          "description": "Classement des 100 innovateurs en technologie d'assurance",
+          "type": "classement_industrie",
+          "frequence_maj": "annuelle",
+          "fiabilite": 0.90
+        }
+      ],
+      "mots_cles": ["insurtech", "assurance cyber", "innovation assurance", "gestion risques", "assurance digitale"],
+      "agents_utilisateurs": ["ea", "avs", "ecyber"]
+    },
+    "retail": {
+      "sources_specialisees": [
+        {
+          "nom": "BigCommerce - E-commerce Trends",
+          "url": "https://www.bigcommerce.com/articles/ecommerce/ecommerce-trends/",
+          "description": "Tendances e-commerce 2025 : blockchain, recherche vocale, AR shopping",
+          "type": "plateforme_ecommerce",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.88
+        },
+        {
+          "nom": "Shopify - Global E-commerce Statistics",
+          "url": "https://www.shopify.com/enterprise/blog/global-ecommerce-statistics",
+          "description": "Statistiques mondiales du e-commerce et prévisions marché",
+          "type": "plateforme_ecommerce",
+          "frequence_maj": "trimestrielle",
+          "fiabilite": 0.91
+        },
+        {
+          "nom": "Statista - E-commerce Worldwide",
+          "url": "https://www.statista.com/topics/871/online-shopping/",
+          "description": "Données statistiques complètes sur le commerce électronique mondial",
+          "type": "base_donnees_statistiques",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.95
+        },
+        {
+          "nom": "Tinuiti - Retail Trends 2025",
+          "url": "https://tinuiti.com/blog/ecommerce/retail-trends-emerging/",
+          "description": "7 tendances retail innovantes : social commerce, IA, personnalisation",
+          "type": "agence_marketing",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.85
+        }
+      ],
+      "mots_cles": ["e-commerce", "retail trends", "omnicanalité", "social commerce", "expérience client", "IA retail"],
+      "agents_utilisateurs": ["er", "avs", "eerc", "eia"]
+    },
+    "semi_conducteurs": {
+      "sources_specialisees": [
+        {
+          "nom": "Semiconductor Industry Association",
+          "url": "https://www.semiconductors.org/",
+          "description": "Association de l'industrie des semi-conducteurs - données marché et tendances",
+          "type": "association_industrielle",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.95
+        },
+        {
+          "nom": "EE Times",
+          "url": "https://www.eetimes.com/",
+          "description": "Actualités et analyses techniques de l'électronique et semi-conducteurs",
+          "type": "magazine_technique",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.90
+        },
+        {
+          "nom": "IC Insights",
+          "url": "https://www.icinsights.com/",
+          "description": "Analyses de marché et prévisions industrie des circuits intégrés",
+          "type": "cabinet_analyse",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.92
+        }
+      ],
+      "mots_cles": ["semiconductors", "chip industry", "wafer fabrication", "foundry", "packaging", "substrates"],
+      "agents_utilisateurs": ["ess", "avs", "aad"]
+    }
+  },
+  "experts_domaines": {
+    "intelligence_artificielle": {
+      "sources_specialisees": [
+        {
+          "nom": "AI News",
+          "url": "https://artificialintelligence-news.com/",
+          "description": "Actualités et développements en intelligence artificielle",
+          "type": "magazine_specialise",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.88
+        },
+        {
+          "nom": "MIT Technology Review - AI",
+          "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+          "description": "Analyses approfondies des avancées en IA par le MIT",
+          "type": "publication_academique",
+          "frequence_maj": "hebdomadaire",
+          "fiabilite": 0.95
+        },
+        {
+          "nom": "OpenAI Research",
+          "url": "https://openai.com/research/",
+          "description": "Publications de recherche et développements OpenAI",
+          "type": "laboratoire_recherche",
+          "frequence_maj": "mensuelle",
+          "fiabilite": 0.93
+        }
+      ],
+      "mots_cles": ["machine learning", "deep learning", "LLM", "AGI", "neural networks", "AI ethics"],
+      "agents_utilisateurs": ["eia", "avs", "aad", "arr"]
+    },
+    "cloud_computing": {
+      "sources_specialisees": [
+        {
+          "nom": "Cloud Computing News",
+          "url": "https://www.cloudcomputing-news.net/",
+          "description": "Actualités et tendances du cloud computing",
+          "type": "magazine_specialise",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.85
+        },
+        {
+          "nom": "AWS Blog",
+          "url": "https://aws.amazon.com/blogs/",
+          "description": "Blog officiel Amazon Web Services - nouvelles fonctionnalités et cas d'usage",
+          "type": "blog_fournisseur",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.90
+        },
+        {
+          "nom": "Google Cloud Blog",
+          "url": "https://cloud.google.com/blog/",
+          "description": "Blog officiel Google Cloud - innovations et meilleures pratiques",
+          "type": "blog_fournisseur",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.90
+        }
+      ],
+      "mots_cles": ["cloud native", "serverless", "containers", "kubernetes", "multi-cloud", "edge computing"],
+      "agents_utilisateurs": ["ec", "avs", "etd"]
+    },
+    "cybersecurite": {
+      "sources_specialisees": [
+        {
+          "nom": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/",
+          "description": "Blog de référence sur la cybersécurité par Brian Krebs",
+          "type": "blog_expert",
+          "frequence_maj": "hebdomadaire",
+          "fiabilite": 0.92
+        },
+        {
+          "nom": "CISA Alerts",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+          "description": "Alertes et avis de cybersécurité de l'agence américaine CISA",
+          "type": "agence_gouvernementale",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.95
+        },
+        {
+          "nom": "Dark Reading",
+          "url": "https://www.darkreading.com/",
+          "description": "Actualités et analyses en cybersécurité pour les professionnels",
+          "type": "magazine_specialise",
+          "frequence_maj": "quotidienne",
+          "fiabilite": 0.88
+        }
+      ],
+      "mots_cles": ["cyber threats", "data breach", "ransomware", "zero trust", "incident response", "vulnerability"],
+      "agents_utilisateurs": ["ecyber", "avs", "aad"]
+    }
+  },
+  "sources_transversales": {
+    "innovation_technologique": [
+      {
+        "nom": "TechCrunch",
+        "url": "https://techcrunch.com/",
+        "description": "Actualités startup et innovation technologique",
+        "type": "media_tech",
+        "frequence_maj": "quotidienne",
+        "fiabilite": 0.85
+      },
+      {
+        "nom": "Wired",
+        "url": "https://www.wired.com/",
+        "description": "Magazine sur l'impact de la technologie sur la culture et l'économie",
+        "type": "magazine_generaliste",
+        "frequence_maj": "quotidienne",
+        "fiabilite": 0.88
+      }
+    ],
+    "economie_business": [
+      {
+        "nom": "Harvard Business Review",
+        "url": "https://hbr.org/",
+        "description": "Analyses stratégiques et management pour dirigeants",
+        "type": "publication_academique",
+        "frequence_maj": "hebdomadaire",
+        "fiabilite": 0.93
+      },
+      {
+        "nom": "McKinsey Insights",
+        "url": "https://www.mckinsey.com/insights",
+        "description": "Études et analyses du cabinet de conseil McKinsey",
+        "type": "cabinet_conseil",
+        "frequence_maj": "hebdomadaire",
+        "fiabilite": 0.92
+      }
+    ]
+  },
+  "apis_donnees": {
+    "financieres": [
+      {
+        "nom": "Alpha Vantage",
+        "url": "https://www.alphavantage.co/",
+        "description": "API données financières temps réel et historiques",
+        "type": "api_financiere",
+        "frequence_maj": "temps_reel",
+        "fiabilite": 0.90
+      },
+      {
+        "nom": "Yahoo Finance API",
+        "url": "https://finance.yahoo.com/",
+        "description": "Données boursières et financières gratuites",
+        "type": "api_financiere",
+        "frequence_maj": "temps_reel",
+        "fiabilite": 0.85
+      }
+    ],
+    "technologiques": [
+      {
+        "nom": "GitHub API",
+        "url": "https://api.github.com/",
+        "description": "Données sur les projets open source et tendances développement",
+        "type": "api_developpement",
+        "frequence_maj": "temps_reel",
+        "fiabilite": 0.95
+      },
+      {
+        "nom": "Stack Overflow API",
+        "url": "https://api.stackexchange.com/",
+        "description": "Tendances et questions techniques des développeurs",
+        "type": "api_communaute",
+        "frequence_maj": "temps_reel",
+        "fiabilite": 0.88
+      }
+    ]
+  },
+  "metadonnees": {
+    "derniere_mise_a_jour": "2025-01-09",
+    "version": "1.0",
+    "nombre_sources": 45,
+    "couverture_secteurs": 10,
+    "couverture_domaines": 12
+  }
+}
+

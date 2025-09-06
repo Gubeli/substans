@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualisations Substans.AI (Mode Local)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+        .chart-container { max-width: 600px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Tableau de Bord - Mode Local</h1>
+    <div class="chart-container"><canvas id="chart1"></canvas></div>
+    <div class="chart-container"><canvas id="chart2"></canvas></div>
+    
+    <script>
+        const charts = [
+  {
+    "type": "pie",
+    "config": {
+      "type": "pie",
+      "data": {
+        "labels": [
+          "Segment A",
+          "Segment B",
+          "Segment C"
+        ],
+        "datasets": [
+          {
+            "data": [
+              45,
+              30,
+              25
+            ],
+            "backgroundColor": [
+              "#FF6384",
+              "#36A2EB",
+              "#FFCE56"
+            ]
+          }
+        ]
+      }
+    }
+  }
+];
+        charts.forEach((chart, index) => {
+            const ctx = document.getElementById('chart' + (index + 1)).getContext('2d');
+            new Chart(ctx, chart.config);
+        });
+    </script>
+</body>
+</html>
